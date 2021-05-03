@@ -1,0 +1,174 @@
+h3{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#container main{
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	background: #F3F3F3;
+}
+
+main #left{
+	float: left;
+	width: 120px;
+}
+
+#left .ltop{
+	width: 100%;
+	height: 150px;
+}
+
+#left .ltop img{
+	width: 50px;
+	height: 50px;
+	margin: 30px 40px 10px;
+}
+
+#left .ltop p{
+	text-align: center;
+}
+
+#left .ltop button{
+	width: 80px;
+	height: 30px;
+	margin: 10px 25px;
+	cursor:pointer;
+	border: 1px solid #9A2424;
+	border-radius: 3px;
+	background: #9A2424;
+}
+
+#left .ltop a{
+	color: white;
+}
+
+#left .lbottom{
+	width: 100%;
+}
+
+#left .lbottom h3{
+	margin-left: 28px;
+}
+
+#left .lbottom li{
+	margin-top: 25px;
+}
+
+#left .lbottom span{
+	margin-left: 13px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+#left .lbottom .cst{
+	padding: 10px 36px;
+}
+
+#left .lbottom .cs{
+	color: white;
+	background: #9A2424;
+}
+
+main #middle{
+	float: left;
+	width: 798px;
+	margin-left: 10px;
+}
+
+#middle .tit{
+	float: left;
+	width: 100%;
+}
+
+#middle .tit li{
+	float: left;
+	padding: 10px 38px;
+	background: #EAEAEA;
+	border-right: 1px solid #DADADA;
+}
+
+#middle .tit .cli{
+	background: white;
+}
+
+#middle .tit .cs{
+	color: #9A2424;
+}
+
+#middle .con{
+	float: left;
+	width: 100%;
+	height: 900px;
+	background: white;
+}
+
+#middle .con .cbox{
+	width: 90%;
+	margin: 10px auto;
+	display: none; 
+}
+
+#middle .con .cbox0{
+	display: block;
+}
+
+main #right{
+	float: left;
+	width: 140px;
+	margin-left: 10px;
+}
+
+#right .rtop{
+	float: left;
+	width: 100%;
+	background: #EAEAEA;
+}
+
+#right .rtop .cnotice{
+	width: 90%;
+	font-size: 13px;
+	margin: 10px auto;
+}
+
+#right .rbottom{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	background: #EAEAEA;
+}
+
+#right .rbottom .crank{
+	width: 90%;
+	margin: 10px auto;
+}
+
+#right .rbottom dt{
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#right .rbottom span{
+	padding: 0px 5px;
+	color: white;
+	background: #B7B7B7;
+}
+
+#right .rbottom .cs{
+	background: #9A2424;
+}
+
+#right .rbottom a{
+	margin-left: 10px;
+}
+
+#right .rbottom .ca{
+	color: #9A2424;
+}
+
+#right .rbottom .cs2{
+	float: right;
+	color: #9A2424;
+	background: none;
+}

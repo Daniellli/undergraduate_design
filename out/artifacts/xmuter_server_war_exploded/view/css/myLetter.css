@@ -1,0 +1,264 @@
+#container main{
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+}
+
+main h3{
+	padding: 20px 0px;
+	text-align: center;
+	border-bottom: 1px dashed black;
+}
+
+main .list{
+	float: left;
+	width: 18%;
+	background: #EAEAEA;
+}
+
+main .list ul li{
+	float: none;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+main ul .cli{
+	color: #9A2424;
+}
+
+main .con{
+	float: right;
+	width: 80%;
+	background: #EAEAEA;
+}
+
+main .con p{
+	font-size:18px;
+	padding:20px;
+	border-bottom:1px solid black;
+}
+
+main .con span{
+	border-bottom: 3px solid #9A2424;
+}
+
+main .con .letter{
+	width: 95%;
+	height: 600px;
+	margin: 30px auto;
+	border: 1px solid #BD0B0B;
+	border-radius: 11px;
+}
+
+main .letter-tit{
+	float: left;
+	width: 10%;
+	height: 100%;
+	background: #BD0B0B;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+main .letter-tit_li{
+	float: none;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	padding: 16px 0px;
+}
+
+main .letter-tit_cli{
+	background: #A92424;
+}
+
+main .letter-tit_li:first-child{
+	margin-top: 20px;
+	border-bottom: 0px;
+}
+
+main .letter-tit_li:last-child{
+	margin-top: 335px;
+}
+
+main .letter-con{
+	float: left;
+	width: 90%;
+	height: 100%;
+	background: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+main .letter-con_li{
+	width: 100%;
+	display: none;
+}
+
+main .letter-con-chatlist{
+	float: left;
+	width: 25%;
+	height: 600px;
+}
+
+main .letter-con-chatlist-search{
+	width: 100%;
+	height: 10%;
+	background: #F1F1F1;
+}
+
+main .letter-con-chatlist-search_uid{
+	width: 150px;
+	height: 25px;
+	margin: 15px;
+	border: none;
+	border-radius: 3px;
+}
+
+main .letter-con-chatlist-uidlist{
+	width: 100%;
+	height: 90%;
+	overflow-y: scroll;
+}
+
+main .letter-con-chatlist-uidlist p{
+	text-align: center;
+	font-size: 13px;
+	border: 0px;
+}
+
+main .letter-con-conlist{
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+
+main .letter-con-conlist_img{
+	margin: 100px;
+}
+
+main .letter-con_tit{
+	float: left;
+	font-size: 18px;
+	padding: 10px 682px 10px 20px;
+	border-top-right-radius: 10px;
+	background: #F1F1F1;
+}
+
+main .letter-con span{
+	border-bottom: 1px solid #A9A9A9;
+}
+
+main .letter-con-send{
+	float: left;
+	font-size: 14px;
+	margin: 20px;
+}
+
+main .letter-con-send_tr{
+	line-height: 50px;
+}
+
+main .letter-con-send_tit{
+	float: right;
+	padding-right: 10px;
+}
+
+main .letter-con-send_sjr{
+	width: 400px;
+	height: 30px;
+	border: 1px solid #A9A9A9;
+	border-radius: 3px;
+}
+
+main .letter-con-send_text{
+	width: 400px;
+	height: 250px;
+	resize: none;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+main .letter-con-send_sub{
+	width: 100px;
+	height: 35px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #BD0B0B;
+}
+
+main .letter-con-uidlist{
+	float: right;
+	width: 200px;
+	height: 555px;
+	font-size: 14px;
+	border-left: 1px solid #A9A9A9;
+}
+
+main .letter-con-uidlist span{
+	float: right;
+	border: none;
+	padding: 10px 79px;
+	border: none;
+	background: #F1F1F1;
+}
+
+main .letter-con-uidlist_searchuid{
+	width: 200px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+main .letter-con-uidlist p{
+	font-size: 14px;
+	border: none;
+	padding: 0px;
+	margin: 10px;
+}
+
+main .letter-con_li ul li span{
+	float: left;
+	border: none;
+	font-size: 14px;
+	padding: 15px 25px;
+}
+
+main .letter-con_li_span {
+	border-bottom: 2px solid #BD0B0B;
+}
+
+main .letter-con-box{
+	float: left;
+	width: 100%;
+	height: 506px;
+	display: none;
+	border-top: 1px solid #A9A9A9;
+	border-bottom-right-radius: 10px;
+}
+
+main .letter-con-left_input{
+	width: 400px;
+	height: 30px;
+	margin: 50px 10px 0px 25px;
+}
+
+main .letter-con-left_button{
+	width: 100px;
+	height: 33px;
+	border: 1px solid #A9A9A9;
+	background: white;
+}
+
+main .letter-con-right_input{
+	margin: 50px 10px 0px 25px;
+}
+
+main .letter-con-right_lastinput{
+	margin-top: 20px;
+}
+
+main .display{
+	display: block;
+}

@@ -1,0 +1,141 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#container{
+	width: 1080px;
+	margin: 0px auto;
+}
+
+#container header{	
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+header #logo{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+header h1{
+	float: left;
+	margin: 35px 15px 0px 10px;
+	color: #9A2424;
+	font-family: 'STXingkai','FZShuTi','STXinwei';
+}
+
+header span{
+	float: left;
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 20px 15px;
+	border-left: 1px solid black;
+}
+
+#container main{
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+	border-top: 1px solid #9A2424;
+	background: url("../images/rlbj.jpg") no-repeat center right;
+}
+
+main #login_box{
+	float: left;
+	width: 380px; 
+	height: 360px;
+	border-radius: 10px;
+	margin: 70px 20px;
+	background: #EAEAEA;
+	/*opacity: 0.5;*/
+}
+
+#login_box .con{
+	float: left;
+	width: 85%;
+	height: 85%;
+	margin: 27px;
+}
+
+#login_box .con h3{
+	text-align: center;
+}
+
+#login_box .con input{
+	width: 99%;
+	height: 40px;
+	border: none;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+#login_box .con .ctxt1{
+	margin-top: 35px;
+	background: url("../images/uid.png") no-repeat;
+}
+
+#login_box .con .ctxt2{
+	background: url("../images/upw.png") no-repeat;
+}
+
+#login_box .con .ctxt{
+	width: 270px;
+	padding-left: 50px;
+	background-color: white;
+}
+
+#login_box .con .cbtn{
+	color: white;
+	font-size: 20px;
+	margin-left: 2px;
+	margin-top: 50px;
+	border-radius: 5px;
+	background: #9A2424;
+	cursor:pointer;
+}
+
+#login_box .con .cbtnt{
+	background: #BD0B0B;
+}
+
+#login_box .con .cp{
+	float: left;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#login_box .con .cp1{
+	float: right;
+}
+
+#login_box .con .ca{
+	font-weight: bold;
+	color: #9A2424;
+}
+
+#container footer{
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	padding-left: 30px;
+}
+
+footer hr{
+	height: 2px;
+	border: none;
+	background-color: #9A2424;
+}
+
+footer p{
+	text-align: center;
+	margin-top: 10px;
+}	

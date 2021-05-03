@@ -1,0 +1,173 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	float: left;
+}
+
+#container{
+	width: 1080px;
+	margin: 0px auto;
+}
+
+#container header{	
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+header .left{
+	float: left;
+	width: 300px;
+}
+
+header #logo{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+header .left h1{
+	float: left;
+	font-family: 'STXingkai','FZShuTi','STXinwei';
+	color: #9A2424;
+	margin-left: 10px;
+	margin-top: 35px;
+}
+
+header .mid{
+	float: left;
+	width: 500px;
+	margin-left: 40px;
+}
+
+header .mid ul{
+	margin-top: 10px;
+}
+
+header .mid .ca{
+	font-size: 15px;
+	padding: 7px 10px;
+	color: black;
+}
+
+header .mid .ca1{
+	color: white;
+	background: #9A2424;
+}
+
+header #txtSearch{
+	clear: left;
+	float: left;
+	width: 380px;
+	height: 40px;
+	border: 2px solid #9A2424;
+}
+
+header .mid input{ 
+	outline: none; 	
+}	
+
+header #btnSearch{
+	float: left;
+	width: 110px;
+	height: 40px;
+	font-size: 16px;
+	color: white;
+	cursor:pointer;
+}
+
+header .mid .cbtn{
+	background: #9A2424;
+	border:1px solid #9A2424;
+}
+
+header .mid .cbtn1{
+	background: #BD0B0B;
+	border:1px solid #BD0B0B;
+}
+
+header .right{
+	float: right;
+	margin-right: 20px;
+	width: 220px;
+	font-size: 14px;
+}
+
+header .right .cu1 .cli1{
+	float: right;
+	margin-right: 20px;
+}
+
+header .right .clit{
+
+}
+
+header .right .cu2 li{
+	float: none;
+	text-indent: -18px;
+}
+
+header .right .cli{
+	font-weight: bold;
+	color: #9A2424;
+}
+
+#container nav{
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	background: #9A2424;
+}
+
+nav ul{
+	width: 80%;
+	margin: 15px auto;
+}
+
+nav li:first-child{
+	margin-left: 70px;
+}
+
+nav li{
+	font-weight: bold;
+}
+
+nav a{
+	color: white;
+	padding: 14px 30px;
+}
+
+nav .ca{
+	background: #BD0B0B;
+}
+
+#container footer{
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+footer hr{
+	height: 2px;
+	border: none;
+	background-color: #9A2424;
+}
+
+footer p{
+	text-align: center;
+	margin-top: 10px;
+}

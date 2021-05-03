@@ -1,0 +1,76 @@
+#container main{
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+}
+
+main h3{
+	padding: 20px 0px;
+	text-align: center;
+	border-bottom: 1px dashed black;
+}
+
+main .list{
+	float: left;
+	width: 18%;
+	background: #EAEAEA;
+}
+
+main .list ul li{
+	float: none;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+main ul .cli{
+	color: #9A2424;
+}
+
+main .con{
+	float: right;
+	width: 80%;
+	background: #EAEAEA;
+}
+
+main p{
+	font-size:18px;
+	padding:20px;
+	border-bottom:1px solid black;
+}
+
+main span{
+	border-bottom: 3px solid #9A2424;
+}
+
+main table{
+	font-size: 15px;
+}
+
+main tr{
+	height:60px;
+}
+
+main .ct{
+	float:right;
+	padding:10px 20px;	
+	margin-top:9px;
+}
+
+main .ci{
+	width:200px;
+	height:30px;
+}
+
+main .csub{
+	width:80px;
+	cursor: pointer;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	background: #9A2424;
+	margin-left: -10px;
+}
+
+main .cbtnt{
+	background: #BD0B0B;
+}

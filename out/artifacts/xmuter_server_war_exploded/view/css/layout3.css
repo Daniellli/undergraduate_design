@@ -1,0 +1,84 @@
+main{
+	width: 100%;
+}
+
+main .content{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+main .cbox{
+	float: left;
+	margin: 10px 0px 0px 10px;
+	background: #EAEAEA;
+}
+
+main .cbox1{
+	width: 24%;
+	height: 300px;
+}
+
+main .cbox2{
+	width: 50%;
+	height: 300px;
+}
+
+main .cbox3{
+	width: 22%;
+	height: 140px;
+}
+
+main .cbox4{
+	width: 22%;
+	height: 120px;
+}
+
+main .cbox5{
+	float: right;
+	width: 22%;
+	height: 230px;
+	margin-right: 12px;
+}
+
+main .cbox6{
+	width: 18%;
+	height: 200px;
+}
+
+main .cbox7{
+	width: 56%;
+	height: 200px;
+}
+
+main .cbox7 .tit{
+	float: left;
+	width: 100%;
+}
+
+main .cbox7 .tit li{
+	float: left;
+	padding: 10px 38px;
+	background: #EAEAEA;
+	border-right: 1px solid #DADADA;
+}
+
+main .cbox7 .tit .cli{
+	background: #7420B3;
+}
+
+main .cbox7 .con{
+	float: left;
+	width: 100%;
+	background: #7420B3;
+}
+
+main .con .cbox2{
+	width: 100%;
+	height: 159px;
+	display: none; 
+}
+
+main .con .cbox2_0{
+	display: block;
+}

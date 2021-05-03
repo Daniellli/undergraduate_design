@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<title>个人中心</title>
+	<link rel="icon" href="images/favicon.ico" />
+	<meta name="keywords" content="湖师百晓生">
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/myLetter.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/myLetter.js"></script>
+</head>
+<body>
+<!-- 内容 -->
+	<div id="container">
+<!-- 头部 -->
+		<header>
+<!-- logo名称 -->
+			<div class="left">
+				<a href="http://www.hutc.zj.cn/index.asp"><img id="logo" src="images/logo.jpg"></a>
+				<a href="index.html"><h1>湖师百晓生</h1></a>
+			</div>
+<!-- 搜索框 -->
+			<div class="mid">
+				<ul>
+					<li><a class="ca ca1" href="#" target="_self">模块一</a></li>
+					<li><a class="ca" href="#" target="_self">模块二</a></li>
+				</ul>
+				<input id="txtSearch" type="search" name="search" placeholder="搜模块一">
+				<a href="#"><button id="btnSearch" class="cbtn">搜索</button></a>
+			</div>
+<!-- 登录注册 -->
+			<div class="right">
+				<ul class="cu1">
+					<li class="cli1 clih"><a href="register.html" target="_blank">注册</a></li>
+					<li class="cli1 clih"><a href="login.html" target="_blank">登录</a></li>
+					<li class="cli1 clit"><a href="myLetter.html" target="_blank">私信</a></li>
+					<li class="cli1 clit"><a href="myMessage.html" target="_blank">信息</a></li>
+					<li class="cli1 clit">
+						<a class="nickname" href="#" target="_blank">昵称</a>
+						<ul class="cu2">
+							<li><a class="cnick" href="myIndex.html" target="_blank">我的主页</a></li>
+							<li><a class="cnick" href="index.html" target="_blank">退出账号</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</header>
+<!-- 导航 -->
+		<nav>
+			<ul>
+				<li><a class="ca" href="#" target="_self">首页</a></li>
+				<li><a href="campusHot.html" target="_self">校园热点</a></li>
+				<li><a href="lifeHelper.html" target="_self">生活助手</a></li>
+				<li><a href="campusAnswer.html" target="_self">校园答疑</a></li>
+				<li><a href="employsResearch.html" target="_self">考研考证</a></li>
+				<li><a href="campusMap.html" target="_self">校园地图</a></li>
+			</ul>	
+		</nav>
+<!-- 个人主页 -->
+		<main>
+			<div class="list">
+				<h3>个人中心</h3>
+				<ul>
+					<li><a href="myindex.html">基本信息</a></li>
+					<li><a href="modify.html">修改密码</a></li>
+					<li><a href="myResume.html">我的简历</a></li>
+					<li><a href="myMessage.html">我的信息</a></li>
+					<li><a href="#">我的私信</a></li>
+				</ul>
+			</div>
+			<div class="con">
+				<p><span>我的私信</span></p>
+	        	<div class="letter">
+	        		<div class="letter-tit">
+	        			<ul>
+	        				<li class="letter-tit_li letter-tit_cli"><img src="images/shouxin.png"><br/>收信</li>
+	        				<li class="letter-tit_li"><img src="images/xiexin.png"><br/>写信</li>
+	        				<li class="letter-tit_li"><img src="images/shezhi.png"><br/>设置</li>
+	        			</ul>
+	        		</div>
+	        		<div class="letter-con">
+	        			<ul>
+	        				<li class="letter-con_li display">
+        						<div class="letter-con-chatlist">
+        							<div class="letter-con-chatlist-search">
+        								<input class="letter-con-chatlist-search_uid" type="text" name="searchuid" placeholder="搜索用户名">
+        							</div>
+        							<div class="letter-con-chatlist-uidlist">
+        								<p>暂无私信内容</p>
+        							</div>
+        						</div>
+        						<div  class="letter-con-conlist">
+        							<img class="letter-con-conlist_img" src="images/sixin.png">
+        						</div>
+	        				</li>
+	        				<li class="letter-con_li">
+        						<span class="letter-con_tit">写信</span>
+        						<div class="letter-con-send">
+        							<table>
+        								<tr class="letter-con-send_tr">
+        									<td class="letter-con-send_tit">收件人</td>
+        									<td>
+        										<input class="letter-con-send_sjr" type="text">
+        									</td>
+        								</tr>
+        								<tr class="letter-con-send_tr">
+        									<td class="letter-con-send_tit">私信内容</td>
+        									<td>
+        										<textarea class="letter-con-send_text"></textarea>
+        									</td>
+        								</tr>
+        								<tr class="letter-con-send_tr">
+        									<td></td>
+        									<td>
+        										<button class="letter-con-send_sub">发送</button>
+        									</td>
+        								</tr>
+        							</table>
+        						</div>
+        						<div class="letter-con-uidlist">
+        							<span>联系人</span>
+        							<input class="letter-con-uidlist_searchuid" type="search" placeholder="搜索用户名">
+        							<p>我的联系人</p>
+        						</div>
+	        				</li>
+	        				<li class="letter-con_li">
+	        					<span class="letter-con_tit">设置</span>
+	        					<ul>
+	        						<li class="letter-con_li_span"><span>屏蔽的人</span></li>
+	        						<li><span>私信接受限制</span></li>
+	        					</ul>
+        						<div class="letter-con-box letter-con-left display">
+        							<input class="letter-con-left_input" type="text" placeholder="请输入屏蔽对象用户名">
+        							<button class="letter-con-left_button">屏蔽</button>
+        						</div>
+        						<div class="letter-con-box letter-con-right">
+        							<input class="letter-con-right_input" type="radio" name="xianzhi">所有人都可以给我发私信(除去被屏蔽的人)<br>
+        							<input class="letter-con-right_input letter-con-right_lastinput" type="radio" name="xianzhi">不接收任何人的私信(依然可以收到系统自动发送的通知)
+        						</div>
+	        				</li>
+	        			</ul>
+	        		</div>
+	        	</div>
+			</div>
+		</main>
+<!-- 尾部 -->
+		<footer>
+			<hr>
+			<p>版权所有：XXX</p>
+		</footer>
+	</div>
+</body>
+</html>

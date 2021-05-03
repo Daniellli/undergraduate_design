@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<title>个人中心</title>
+	<link rel="icon" href="images/favicon.ico" />
+	<meta name="keywords" content="湖师百晓生">
+	<link rel="stylesheet" href="css/base.css" />
+	<style type="text/css">
+		#container main{
+			float: left;
+			width: 100%;
+			padding-top: 20px;
+		}
+
+		main h3{
+			padding: 20px 0px;
+			text-align: center;
+			border-bottom: 1px dashed black;
+		}
+
+		main .list{
+			float: left;
+			width: 18%;
+			background: #EAEAEA;
+		}
+
+		main .list ul li{
+			float: none;
+			margin: 20px 0px;
+			text-align: center;
+		}
+
+		main ul .cli{
+			color: #9A2424;
+		}
+
+		main .con{
+			float: right;
+			width: 80%;
+			background: #EAEAEA;
+		}
+
+		main p{
+			font-size:18px;
+			padding:20px;
+			border-bottom:1px solid black;
+		}
+		
+		main span{
+			border-bottom: 3px solid #9A2424;
+		}
+
+		main table{
+			font-size: 15px;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("main li a").bind("mouseover click",function(){
+				$(this).addClass("cli");
+			}).mouseout(function(){
+				$(this).removeClass("cli");
+			});
+		});
+	</script>
+</head>
+<body>
+<!-- 内容 -->
+	<div id="container">
+<!-- 头部 -->
+		<header>
+<!-- logo名称 -->
+			<div class="left">
+				<a href="http://www.hutc.zj.cn/index.asp"><img id="logo" src="images/logo.jpg"></a>
+				<a href="index.html"><h1>湖师百晓生</h1></a>
+			</div>
+<!-- 搜索框 -->
+			<div class="mid">
+				<ul>
+					<li><a class="ca ca1" href="#" target="_self">模块一</a></li>
+					<li><a class="ca" href="#" target="_self">模块二</a></li>
+				</ul>
+				<input id="txtSearch" type="search" name="search" placeholder="搜模块一">
+				<a href="#"><button id="btnSearch" class="cbtn">搜索</button></a>
+			</div>
+<!-- 登录注册 -->
+			<div class="right">
+				<ul class="cu1">
+					<li class="cli1 clih"><a href="register.html" target="_blank">注册</a></li>
+					<li class="cli1 clih"><a href="login.html" target="_blank">登录</a></li>
+					<li class="cli1 clit"><a href="myLetter.html" target="_blank">私信</a></li>
+					<li class="cli1 clit"><a href="myMessage.html" target="_blank">信息</a></li>
+					<li class="cli1 clit">
+						<a class="nickname" href="#" target="_blank">昵称</a>
+						<ul class="cu2">
+							<li><a class="cnick" href="myIndex.html" target="_blank">我的主页</a></li>
+							<li><a class="cnick" href="index.html" target="_blank">退出账号</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</header>
+<!-- 导航 -->
+		<nav>
+			<ul>
+				<li><a class="ca" href="#" target="_self">首页</a></li>
+				<li><a href="campusHot.html" target="_self">校园热点</a></li>
+				<li><a href="lifeHelper.html" target="_self">生活助手</a></li>
+				<li><a href="campusAnswer.html" target="_self">校园答疑</a></li>
+				<li><a href="employsResearch.html" target="_self">考研考证</a></li>
+				<li><a href="campusMap.html" target="_self">校园地图</a></li>
+			</ul>	
+		</nav>
+<!-- 个人主页 -->
+		<main>
+			<div class="list">
+				<h3>个人中心</h3>
+				<ul>
+					<li><a href="myindex.html">基本信息</a></li>
+					<li><a href="modify.html">修改密码</a></li>
+					<li><a href="#">我的简历</a></li>
+					<li><a href="myMessage.html">我的信息</a></li>
+					<li><a href="myLetter.html">我的私信</a></li>
+				</ul>
+			</div>
+			<div class="con">
+				<p><span>我的简历</span></p>
+				<form action="" method="get">
+					<table>
+						<tr>
+							<td class="ct">简历名称：</td>
+							<td>
+								<input type="text" name="resname">
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">姓名：</td>
+							<td>
+								<input type="text" name="username">
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">生日：</td>
+							<td>
+								<label>
+									<select name="year" value="0">
+										<option>请选择</option>
+										<option>2017</option>
+									</select>年
+								</label>
+								<label>
+									<select class="ci ci2" name="month" value="0">
+										<option>请选择</option>
+										<option>5</option>
+									</select>月
+								</label>
+								<label>
+									<select name="day" value="0">
+										<option>请选择</option>
+										<option>20</option>
+									</select>日
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">性别：</td>
+							<td>
+								<label><input type="radio" name="sex" value="1"> 男</label>
+								<label><input type="radio" name="sex" value="2"> 女</label>
+							</td>
+						</tr>
+						<tr>
+							<td>证件号：</td>
+							<td>
+								<select name="papers" value="0">
+									<option>请选择</option>
+									<option>身份证</option>
+									<option>港澳身份证</option>
+									<option>护照</option>
+								</select>
+								<input type="text" name="zjnum">
+							</td>
+						</tr>
+						<tr>
+							<td>毕业时间：</td>
+							<td>
+								<label>
+									<select name="year" value="0">
+										<option>请选择</option>
+										<option>2017</option>
+									</select>年
+								</label>
+								<label>
+									<select name="month" value="0">
+										<option>请选择</option>
+										<option>5</option>
+									</select>月
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">eamil：</td>
+							<td>
+								<input type="email" name="eml">
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">姓名：</td>
+							<td>
+								<input type="text" name="username">
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">手机号码：</td>
+							<td>
+								<input type="text" name="username">
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">目前所在城市：</td>
+							<td>
+								<label>
+									<select name="province" value="0">
+										<option>请选择</option>
+										<option>浙江</option>
+									</select>省
+								</label>
+								<label>
+									<select name="county" value="0">
+										<option>请选择</option>
+										<option>湖州</option>
+									</select>县/市
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="ct">家庭所在城市：</td>
+							<td>
+								<input type="text" name="username">
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<button>保存，并填写下一项</button>
+								<button>保存</button>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>时间：</td>
+							<td>
+								<label>
+									<select name="year" value="0">
+										<option>请选择</option>
+										<option>2017</option>
+									</select>年
+								</label>
+								<label>
+									<select name="month" value="0">
+										<option>请选择</option>
+										<option>5</option>
+									</select>月到
+								</label>
+								<label>
+									<select name="year" value="0">
+										<option>请选择</option>
+										<option>2017</option>
+									</select>年
+								</label>
+								<label>
+									<select name="month" value="0">
+										<option>请选择</option>
+										<option>5</option>
+									</select>月(后一项不填表示至今)
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td>学校：</td>
+							<td>
+								<label>
+									<select name="province" value="0">
+										<option>请选择</option>
+										<option>浙江</option>
+									</select>省
+								</label>
+								<select name="school" value="0">
+										<option>请选择</option>
+										<option>湖州师范学院</option>
+								</select>
+								<input type="text" name="" placeholder="如果没有请在这里填写">
+							</td>
+						</tr>
+						<tr>
+							<td>所在学院：</td>
+							<td>
+								<input type="text" name="school">
+							</td>
+						</tr>
+						<tr>
+							<td>专业：</td>
+							<td>
+								<input type="text" name="career">
+							</td>
+						</tr>
+						<tr>
+							<td>学历：</td>
+							<td>
+								<select name="education" value="0">
+										<option>请选择</option>
+										<option>本科</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>班级排名：</td>
+							<td>
+								<select name="classrank" value="0">
+										<option>请选择</option>
+										<option>10%</option>
+										<option>20%</option>
+										<option>50%</option>
+										<option>其它</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>继续添加教育背景</button>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>上一项</button>
+								<button>保存，并填写下一项</button>
+								<button>保存</button>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>英语等级：</td>
+							<td>
+								<select name="cet" value="0">
+										<option>请选择</option>
+										<option>大学英语四级</option>
+										<option>大学英语六级</option>
+										<option>专业四级</option>
+										<option>专业八级</option>
+										<option>未参加</option>
+										<option>未通过</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>语言2：</td>
+							<td>
+								<select name="language2" value="0">
+										<option>请选择</option>
+										<option>日语</option>
+										<option>法语</option>
+										<option>俄语</option>
+										<option>韩语</option>
+										<option>意大利语</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>等级：</td>
+							<td>
+								<select name="grasp" value="0">
+										<option>请选择</option>
+										<option>一般</option>
+										<option>良好</option>
+										<option>熟练</option>
+										<option>母语</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>语言3：</td>
+							<td>
+								<input type="text" name="language3">
+							</td>
+						</tr>
+						<tr>
+							<td>等级：</td>
+							<td>
+								<select name="grasp" value="0">
+										<option>请选择</option>
+										<option>一般</option>
+										<option>良好</option>
+										<option>熟练</option>
+										<option>母语</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>上一项</button>
+								<button>保存，并填写下一项</button>
+								<button>保存</button>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>学生干部：</td>
+							<td>
+								<textarea>
+									
+								</textarea>
+								（200字以内）
+							</td>
+						</tr>
+						<tr>
+							<td>获得奖励：</td>
+							<td>
+								<textarea>
+									
+								</textarea>
+								（200字以内）
+							</td>
+						</tr>
+						<tr>
+							<td>社会实践：</td>
+							<td>
+								<textarea>
+									
+								</textarea>
+								（200字以内）
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>上一项</button>
+								<button>保存，并填写下一项</button>
+								<button>保存</button>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>IT技能类别：</td>
+							<td>
+								<select name="category1" value="0">
+										<option>请选择</option>
+										<option>Database</option>
+										<option>Network</option>
+								</select>
+								<select name="category2" value="0">
+										<option>请选择</option>
+										<option>Access</option>
+										<option>My SQL</option>
+										<option>TCP/IP</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>熟练程度：</td>
+							<td>
+								<select name="grasp" value="0">
+										<option>请选择</option>
+										<option>一般</option>
+										<option>良好</option>
+										<option>熟练</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>继续添加IT技能</button>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>上一项</button>
+								<button>保存，并填写下一项</button>
+								<button>保存</button>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td></td>
+							<td>
+								<button>继续添加项目经验</button>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button>上一项</button>
+								<button>保存，并填写下一项</button>
+								<button>保存</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</main>
+<!-- 尾部 -->
+		<footer>
+			<hr>
+			<p>版权所有：XXX</p>
+		</footer>
+	</div>
+</body>
+</html>

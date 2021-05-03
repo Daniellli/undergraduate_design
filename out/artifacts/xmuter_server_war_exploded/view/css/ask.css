@@ -1,0 +1,123 @@
+#container main{
+	width: 100%;
+	height: 600px;
+}
+
+main .asktable{
+	width: 90%;
+	padding-top: 30px;
+	margin: 0px auto;
+}
+
+main .asktable_tr{
+	height: 80px;
+}
+
+main .asktable_tit{
+	padding-left: 50px;
+}
+
+main .asktable_text{
+	width: 750px;
+	height: 80px;
+	resize: none;
+	font: 15px bold;
+	border: 3px solid #BD0B0B;
+}
+
+main .asktable_choice{
+	float: left;
+	width: 18px;
+	height: 18px; 
+	margin-top: 3px;
+	vertical-align: text-top; 
+}
+
+main .asktable_word{
+	font-size: 14px;
+	margin-left: -165px;
+}
+
+main .asktable-getscore{
+	float: left;
+	width: 62px;
+	padding: 5px 10px;
+	margin: -6px 10px 0px 75px;
+	cursor: pointer;
+	background: white;
+	border: 1px solid #DADADA;
+}
+
+main .asktable_img{
+	float: right;
+	margin-top: 8px;
+}
+
+main .asktable_usescore{
+	color: red;
+}
+
+main .asktable_ul{
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 93px;
+}
+
+main .asktable_li{
+	float: none;
+	width: 62px;
+	cursor: pointer;
+	list-style: none;
+	padding: 5px 10px;
+	border: 1px solid #DADADA;
+	border-top: none;
+	background: white;
+}
+
+main .asktable_nowscore{
+	font-size: 13px;
+	color: #A9A9A9;
+	margin-left: 110px;
+}
+
+main .asktable_sub{
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+	margin-right: 30px;
+	border: none;
+	border-radius: 8px;
+	background: #BD0B0B;
+}
+
+main .asktable_nmchoice{
+	float: none;
+}
+
+main .asktable_nmword{
+	margin: 8px 0px 0px 2px;
+}
+
+main .asktable-takescore{
+	float: right;
+	margin: 10px 500px 0px 0px;
+}
+
+main .asktable-takescore_xh{
+	font-size: 13px;
+	color: #A9A9A9;
+}
+
+main .asktable-takescore_jf{
+	color: red;
+}
+
+main .hidden{
+	display: none;
+}
+
+main .bgcolor{
+	background: #EAEAEA;
+}

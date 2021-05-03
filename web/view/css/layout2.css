@@ -1,0 +1,120 @@
+#container main{
+	float: left;
+	width: 100%;
+}
+
+main .slideBox{
+	width: 100%;
+}
+
+#imgBox{
+	float: left;
+	width: 90%;
+}
+
+#imgBox img{
+	float: left;
+	width: 100%;
+	height: 299px;
+}
+
+#imgBox p{
+	float: left;
+	margin: 240px 0px 0px -500px;
+	color: blue;
+}
+
+#selBox{
+	float: left;
+	width: 10%;
+	background: black;
+}
+
+#selBox li{
+	text-indent: 25px;
+	margin: 19px 0px 0px -18px;
+	padding: 10px 32px 10px 20px;
+}
+
+#selBox .cli1{
+	margin-top: 9px;
+}
+
+#selBox .cli2{
+	margin-bottom: 9px;
+}
+
+#selBox .cli{
+	background:url(../images/sli.png);
+}
+
+#selBox a{
+	color: white;
+}
+
+main .content{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+}
+
+main .content ul{
+	background: #EAEAEA;
+}
+
+main .content li{
+	float: none;
+	margin-left: 35px;
+	line-height: 30px;
+	border-bottom:1px dotted #ccc;
+	list-style-image: url(../images/d.png);
+}
+
+main .content li .ca{
+	font-weight: bold;
+	color: #9A2424;
+}
+
+main .content h3{
+	margin-left: 10px;
+}
+
+main .content img{
+	height: 30px;
+}
+
+main .content span{
+	float: right;
+	margin-right: 20px;
+}
+
+main .content .cs{
+	font-weight: bold;
+	color: #9A2424;
+	margin-top: 10px;
+}
+
+main .left{
+	float: left;
+	margin-top: 20px;
+}
+
+main .mid img{
+	float: left;
+	width: 30%;
+	height: 182px;
+	margin: 20px 10px 0px;
+}
+
+main .right{
+	float: right;
+	margin-top: 20px;
+}
+
+main .top{
+	width: 34%;
+}
+
+main .bottom{
+	width: 49.5%;
+}

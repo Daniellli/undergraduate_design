@@ -1,0 +1,8 @@
+#container main{
+	float: left;
+	width: 100%;
+}
+
+main img{
+	width: 100%;
+}

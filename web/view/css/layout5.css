@@ -1,0 +1,60 @@
+main{
+	width: 100%;
+}
+
+main .content{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+}
+
+main .content .top,main .content .bottom{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+main .content .left{	
+	width: 49%;
+}
+
+main .content .right{
+	width: 49%;
+	float: right;
+}
+
+main .content img{
+	height: 30px;
+}
+
+main .content span{
+	float: right;
+	margin-right: 50px;
+}
+
+main .content .cs{
+	font-weight: bold;
+	color: #9A2424;
+	margin-top: 10px;
+}
+
+main .content ul{
+	background: #EAEAEA;
+}
+
+main .content li{
+	float: none;
+	margin-left: 35px;
+	line-height: 30px;
+	border-bottom:1px dotted #ccc;
+	list-style-image: url(../images/d2.png);
+}
+
+main .content li .ca{
+	font-weight: bold;
+	color: #9A2424;
+}
+
+main .left,main .right{
+	float: left;
+}
